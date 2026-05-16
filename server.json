@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/sql",
+  "description": "MCP server: format SQL queries (Postgres, MySQL, SQLite, BigQuery, MSSQL, etc.).",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/sql-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/sql-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/sql-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
